@@ -12,19 +12,23 @@ function App() {
           CS Student · Builder · Dreamer
         </p>
       </header>
+
+      {/* Profile Image */}
       <div className="flex justify-center mb-4">
         <img
-          src="../src/assets/image/profile.jpg"
+          src="/assets/image/profile.jpg"
+          alt="Umar Syakir"
           className="w-40 h-40 rounded-full object-cover border-4 border-gray-300 shadow"
-        ></img>
+        />
       </div>
 
-      <div className="flex justify-center gap-6 mb-10 text-2xl text-gray-600">
+      {/* Socials */}
+      <div className="flex justify-center gap-6 mb-10 text-gray-600">
         <a
-          href="https://github.com/yourusername"
+          href="https://github.com/sykrwasd"
           target="_blank"
           rel="noopener noreferrer"
-          className="hover:text-black text-4xl"
+          className="hover:text-black text-3xl"
         >
           <FaGithub />
         </a>
@@ -32,7 +36,7 @@ function App() {
           href="https://linkedin.com/in/yourusername"
           target="_blank"
           rel="noopener noreferrer"
-          className="hover:text-blue-700 text-4xl"
+          className="hover:text-blue-700 text-3xl"
         >
           <FaLinkedin />
         </a>
@@ -40,7 +44,7 @@ function App() {
           href="https://twitter.com/yourusername"
           target="_blank"
           rel="noopener noreferrer"
-          className="hover:text-blue-500 text-4xl"
+          className="hover:text-blue-500 text-3xl"
         >
           <FaTwitter />
         </a>
@@ -49,7 +53,8 @@ function App() {
       {/* About */}
       <section className="max-w-2xl mx-auto text-center mb-10">
         <p className="text-xl text-gray-700">
-         I'm a CS student who works primarily with React, Node.js, Express.js, and MongoDB. I enjoy solving problems and building full-stack tools that make life easier.
+          I'm a CS student who works primarily with React, Node.js, Express.js, and MongoDB.
+          I enjoy solving problems and building full-stack tools that make life easier.
         </p>
       </section>
 
@@ -59,58 +64,58 @@ function App() {
         <div className="grid gap-8 md:grid-cols-2">
           <Project
             title="ReLearn – Student Book Marketplace"
-            desc="Cross-platform app for students to buy and sell used books. Built with React Native + AWS S3."
+            desc="Cross-platform app for students to buy and sell used books."
             link="https://github.com/sykrwasd/ReLearn"
             tech={["React Native", "Expo", "MongoDB", "AWS S3", "TailwindCSS"]}
-            image={"../src/assets/image/ReLearn.png"}
+            image="/assets/image/ReLearn.png"
           />
           <Project
             title="Achievia – Goal-Based Savings App"
-            desc="Finance tracker for managing savings goals. Built in React Native with MongoDB backend."
+            desc="Finance tracker for managing savings goals."
             link="https://github.com/sykrwasd/sykrOpenAI"
             tech={["React Native", "Expo", "MongoDB"]}
-            image={"../src/assets/image/achievia.jpg"}
+            image="/assets/image/achievia.jpg"
           />
           <Project
             title="DISK Voting System"
-            desc="Internal voting platform for 375 Students with real-time vote tracking."
+            desc="Internal voting platform for 375 students with real-time tracking."
             link="https://github.com/syahrillhaiqal/DiskVotingSystem"
-            tech={["HTMLCSS", "Tailwind", "Node.js","MongoDB", "Express.js","Railway"]}
-            image={"../src/assets/image/disk.png"}
+            tech={["HTML", "CSS", "Tailwind", "Node.js", "MongoDB", "Express.js", "Railway"]}
+            image="/assets/image/disk.png"
           />
           <Project
             title="PDF Summarizer (sykrOpenAI)"
             desc="Uploads academic PDFs and summarizes content using OpenAI API."
             link="https://github.com/sykrwasd/sykrOpenAI"
-            tech={["React", "OpenAI", "MongoDB", "Pdf-Parse", "TailwindCSS","Multer"]}
-            image={"../src/assets/image/ai.png"}
+            tech={["React", "OpenAI", "MongoDB", "Pdf-Parse", "TailwindCSS", "Multer"]}
+            image="/assets/image/ai.png"
           />
           <Project
             title="Sales Management System (Sagu)"
-            desc="Tracks orders and deliveries for sagu dessert sales. Built with Node.js and MongoDB."
+            desc="Tracks orders and deliveries for sagu dessert sales."
             link="https://github.com/sykrwasd/Sagu"
-            tech={["HTMLCSS", "Node.js", "MongoDB", "Express.js", "Railway"]}
-            image={"../src/assets/image/sagu.png"}
+            tech={["HTML", "CSS", "Node.js", "MongoDB", "Express.js", "Railway"]}
+            image="/assets/image/sagu.png"
           />
           <Project
             title="KShoppe – Daily Closing Report"
-            desc="Dynamic retail report generator with modal preview and PDF export. Built using jQuery and Bootstrap."
+            desc="Retail report generator with modal preview and PDF export."
             link="https://github.com/sykrwasd/KShoppe"
-            tech={["HTMLCSS", "Vercel", "Javascript"]}
-            image={"../src/assets/image/kshoppe.jpg"}
+            tech={["HTML", "CSS", "Vercel", "JavaScript", "jQuery"]}
+            image="/assets/image/kshoppe.jpg"
           />
           <Project
             title="CodeNest – Employee Management System"
-            desc="Full-stack HR platform for NazaCorp. Built in PHP & MySQL with role-based access, payroll and performance tracking."
+            desc="Full-stack HR platform for NazaCorp with payroll and performance tracking."
             link="https://github.com/sykrwasd/CodeNest"
-            tech={["PHP", "MySQL", "XAMPP","CSS","Javascript  "]}
-            image={"../src/assets/image/codenest.png"}
+            tech={["PHP", "MySQL", "XAMPP", "CSS", "JavaScript"]}
+            image="/assets/image/codenest.png"
           />
         </div>
       </section>
 
       {/* Footer */}
-      <footer className="text-center text-sm text-gray-500 mt-10">
+      <footer className="text-center text-sm text-gray-500 mt-16 pb-4">
         © {new Date().getFullYear()} Umar Syakir
       </footer>
     </div>
