@@ -78,7 +78,7 @@ function App() {
           />
           <Project
             title="DISK Voting System"
-            desc="Internal voting platform for 375 students with real-time tracking."
+            desc="Internal voting platform for 300+ students with real-time tracking."
             link="https://github.com/syahrillhaiqal/DiskVotingSystem"
             tech={["HTML", "CSS", "Tailwind", "Node.js", "MongoDB", "Express.js", "Railway"]}
             image="/image/disk.png"
