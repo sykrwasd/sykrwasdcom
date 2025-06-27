@@ -14,13 +14,13 @@ function App() {
       </header>
 
       {/* Profile Image */}
-      <div className="flex justify-center mb-4">
+      {/* <div className="flex justify-center mb-4">
         <img
           src="/image/profile.jpg"
           alt="Umar Syakir"
           className="w-40 h-40 rounded-full object-cover border-4 border-gray-300 shadow"
         />
-      </div>
+      </div> */}
 
       {/* Socials */}
       <div className="flex justify-center gap-6 mb-10 text-gray-600">
@@ -28,20 +28,20 @@ function App() {
           href="https://github.com/sykrwasd"
           target="_blank"
           rel="noopener noreferrer"
-          className="hover:text-black text-3xl"
+         className="hover:text-blue-500 text-3xl"
         >
           <FaGithub />
         </a>
         <a
-          href="https://linkedin.com/in/yourusername"
+          href="https://www.linkedin.com/in/umar-syakir-harun-b9a5b3319"
           target="_blank"
           rel="noopener noreferrer"
-          className="hover:text-blue-700 text-3xl"
+          className="hover:text-blue-500 text-3xl"
         >
           <FaLinkedin />
         </a>
         <a
-          href="https://twitter.com/yourusername"
+          href="https://twitter.com/nzsykr"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-blue-500 text-3xl"
