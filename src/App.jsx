@@ -16,7 +16,7 @@ function App() {
       {/* Profile Image */}
       <div className="flex justify-center mb-4">
         <img
-          src="/assets/image/profile.jpg"
+          src="/image/profile.jpg"
           alt="Umar Syakir"
           className="w-40 h-40 rounded-full object-cover border-4 border-gray-300 shadow"
         />
@@ -67,49 +67,49 @@ function App() {
             desc="Cross-platform app for students to buy and sell used books."
             link="https://github.com/sykrwasd/ReLearn"
             tech={["React Native", "Expo", "MongoDB", "AWS S3", "TailwindCSS"]}
-            image="/assets/image/ReLearn.png"
+            image="/image/ReLearn.png"
           />
           <Project
             title="Achievia – Goal-Based Savings App"
             desc="Finance tracker for managing savings goals."
             link="https://github.com/sykrwasd/sykrOpenAI"
             tech={["React Native", "Expo", "MongoDB"]}
-            image="/assets/image/achievia.jpg"
+            image="/image/achievia.jpg"
           />
           <Project
             title="DISK Voting System"
             desc="Internal voting platform for 375 students with real-time tracking."
             link="https://github.com/syahrillhaiqal/DiskVotingSystem"
             tech={["HTML", "CSS", "Tailwind", "Node.js", "MongoDB", "Express.js", "Railway"]}
-            image="/assets/image/disk.png"
+            image="/image/disk.png"
           />
           <Project
             title="PDF Summarizer (sykrOpenAI)"
             desc="Uploads academic PDFs and summarizes content using OpenAI API."
             link="https://github.com/sykrwasd/sykrOpenAI"
             tech={["React", "OpenAI", "MongoDB", "Pdf-Parse", "TailwindCSS", "Multer"]}
-            image="/assets/image/ai.png"
+            image="/image/ai.png"
           />
           <Project
             title="Sales Management System (Sagu)"
             desc="Tracks orders and deliveries for sagu dessert sales."
             link="https://github.com/sykrwasd/Sagu"
             tech={["HTML", "CSS", "Node.js", "MongoDB", "Express.js", "Railway"]}
-            image="/assets/image/sagu.png"
+            image="/image/sagu.png"
           />
           <Project
             title="KShoppe – Daily Closing Report"
             desc="Retail report generator with modal preview and PDF export."
             link="https://github.com/sykrwasd/KShoppe"
             tech={["HTML", "CSS", "Vercel", "JavaScript", "jQuery"]}
-            image="/assets/image/kshoppe.jpg"
+            image="/image/kshoppe.jpg"
           />
           <Project
             title="CodeNest – Employee Management System"
             desc="Full-stack HR platform for NazaCorp with payroll and performance tracking."
             link="https://github.com/sykrwasd/CodeNest"
             tech={["PHP", "MySQL", "XAMPP", "CSS", "JavaScript"]}
-            image="/assets/image/codenest.png"
+            image="/image/codenest.png"
           />
         </div>
       </section>
